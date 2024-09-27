@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brainology 3.0</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dark-mode">
+  <div id="game-container">
+    <h2>Brainology 3.0</h2>
+    <h4>Level: <span id="current-level">1</span></h4>
+    <h3 id="score" class="score">0</h3>
+    
+    <button id="start-btn" class="start-btn">Start Game</button>
+    <div id="grid-container"></div>
+
+    <!-- Toggle for dark/light mode -->
+    <label class="switch">
+      <input type="checkbox" id="mode-toggle">
+      <span class="slider round"></span>
+      <span id="toggle-text">Light mode</span>
+    </label>
+
+    <!-- Social sharing buttons -->
+    <div id="share-buttons" class="hidden">
+      <button id="share-btn">Share Score</button>
+      <button id="restart-btn">Restart Game</button>
+    </div>
+
+    <!-- Placeholder for future ads -->
+    <!-- <div id="ad-space">Ad Space</div> -->
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
